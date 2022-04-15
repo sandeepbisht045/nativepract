@@ -10,8 +10,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@gapur/react-native-accordion": "^1.0.6",
+    "accordion-collapse-react-native": "^1.1.0",
     "react": "17.0.2",
-    "react-native": "0.68.0"
+    "react-native": "0.68.0",
+    "react-native-collapsible": "^1.6.0",
+    "react-native-svg-transformer": "^1.0.0",
+    "react-native-vector-image": "^0.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
