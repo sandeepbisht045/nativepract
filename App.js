@@ -9,8 +9,8 @@ import Accordion from "@gapur/react-native-accordion";
 const App=()=>{
 
 return <>
-{/* <Home/> */}
-<Subscribe/>
+<Home/>
+{/* <Subscribe/> */}
 
 </>
 

@@ -2,7 +2,7 @@ import React from "react";
 import {Collapse,CollapseHeader, CollapseBody, AccordionList} from 'accordion-collapse-react-native';
 import { View,Text,FlatList,Image,ScrollView,TouchableOpacity,Separator} from 'react-native'
 import Accordion from "@gapur/react-native-accordion";
-
+import Setting from "../assets/settings.svg"
 
 export const Home=()=>{
   const arr = [{ camid: 1, camname: "New 1" }, { camid: 2, camname: "New 2" }, { camid: 3, camname: "New 3"
@@ -11,7 +11,8 @@ export const Home=()=>{
 
 return <>
 <View >
-
+{/* <Image source={require("../assets/settings.svg")} style={{left:120,width:150,height:100,top:60}} /> */}
+{/* <Setting/> */}
 <Image style={{width:50,height:30,color:"black",margin:12}} source={{uri: 'https://cdn.icon-icons.com/icons2/2582/PNG/512/menu_icon_153999.png'}}/>
 <Text style={{bottom:40,left:340}}>
 <Image style={{width:21,height:20}} source={{uri:'https://cdn.icon-icons.com/icons2/2551/PNG/512/search_icon_152764.png'}}/>
